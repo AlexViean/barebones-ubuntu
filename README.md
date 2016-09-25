@@ -9,8 +9,10 @@
 <h3>Post Installation</h3>
 <p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files xserver-xorg-video-all policykit-desktop-privileges</p>
 
+# Fix airplane mode
 <p>sudo echo "blacklist asus_nb_wmi" >> /etc/modprobe.d/blacklist.conf</p>
 
+# Install nVIDIA driver
 <p>sudo add-apt-repository ppa:graphics-drivers/ppa</p>
 <p>sudo apt-get update</p>
-<p>sudo apt-get install nvidia-prime nvidia-367</p>
+<p>sudo apt-get install nvidia-prime nvidia-367 bumblebee</p>
