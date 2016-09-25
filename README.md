@@ -6,9 +6,10 @@
 </ol>
 <h2>Install command-line Ubuntu</h2>
 <p>Too easy</p>
-<p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files policykit-desktop-privileges</p>
 <ul><h3><li>Install Unity</li></h3>
 <p>sudo apt-get install ubuntu-desktop --no-install-recommends</p>
+<p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files policykit-desktop-privileges</p>
+<p># Install this for Virtual Machine only: xserver-xorg-video-all</p>
 <h3><li>Install MATE Core</li></h3>
 <p>sudo apt-get install mate-core lightdm</p></ul>
 <h2>Post Installation</h2>
