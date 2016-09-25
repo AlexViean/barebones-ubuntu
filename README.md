@@ -24,3 +24,5 @@
 
 <h3><li>To hide fsck message</li></h3>
 <p>Add loglevel=3 to /etc/default/grub</p></ul>
+<h3><li>Install using Synaptic</li></h3>
+<p>software-properties</p>
