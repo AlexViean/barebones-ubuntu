@@ -6,12 +6,12 @@
 </ol>
 <h2>Install command-line Ubuntu</h2>
 <p>Too easy</p>
+<p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files policykit-desktop-privileges</p>
 <ul><h3><li>Install Unity</li></h3>
 <p>sudo apt-get install ubuntu-desktop --no-install-recommends</p>
 <h3><li>Install MATE Core</li></h3>
 <p>sudo apt-get install mate-core lightdm</p></ul>
 <h2>Post Installation</h2>
-<p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files xserver-xorg-video-all policykit-desktop-privileges</p>
 <ul>
 <h3><li>Fix airplane mode</li></h3>
 <p>sudo echo "blacklist asus_nb_wmi" >> /etc/modprobe.d/blacklist.conf</p>
