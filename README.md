@@ -12,14 +12,14 @@
 <p>sudo apt-get install mate-core lightdm</p></ul>
 <h2>Post Installation</h2>
 <p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files xserver-xorg-video-all policykit-desktop-privileges</p>
-
-<h3>Fix airplane mode</h3>
+<ul>
+<h3><li>Fix airplane mode</li></h3>
 <p>sudo echo "blacklist asus_nb_wmi" >> /etc/modprobe.d/blacklist.conf</p>
 
-<h3>Install nVIDIA driver</h3>
+<h3><li>Install nVIDIA driver</li></h3>
 <p>sudo add-apt-repository ppa:graphics-drivers/ppa</p>
 <p>sudo apt-get update</p>
 <p>sudo apt-get install nvidia-prime nvidia-367 bumblebee</p>
 
-<h3>Hide fsck message</h3>
-<p>Add loglevel=3 to /etc/default/grub</p>
+<h3><li>Hide fsck message</li></h3>
+<p>Add loglevel=3 to /etc/default/grub</p></ul>
