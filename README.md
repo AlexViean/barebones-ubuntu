@@ -6,8 +6,10 @@
 </ol>
 <h2>Install command-line Ubuntu</h2>
 <p>Too easy</p>
-<h3>Install Unity</h3>
+<ul><h3><li>Install Unity</li></h3>
 <p>sudo apt-get install ubuntu-desktop --no-install-recommends</p>
+<h3><li>Install MATE Core</li></h3>
+<p>sudo apt-get install mate-core lightdm</p></ul>
 <h2>Post Installation</h2>
 <p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files xserver-xorg-video-all policykit-desktop-privileges</p>
 
