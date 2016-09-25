@@ -1,2 +1,1 @@
-viean_project
-=============
+Install barebones Ubuntu
