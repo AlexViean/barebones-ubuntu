@@ -11,13 +11,13 @@
 <h2>Post Installation</h2>
 <p>sudo apt-get install menu hud indicator-session unity-lens-applications unity-lens-files xserver-xorg-video-all policykit-desktop-privileges</p>
 
-# Fix airplane mode
+<h3>Fix airplane mode</h3>
 <p>sudo echo "blacklist asus_nb_wmi" >> /etc/modprobe.d/blacklist.conf</p>
 
-# Install nVIDIA driver
+<h3>Install nVIDIA driver</h3>
 <p>sudo add-apt-repository ppa:graphics-drivers/ppa</p>
 <p>sudo apt-get update</p>
 <p>sudo apt-get install nvidia-prime nvidia-367 bumblebee</p>
 
-# Hide fsck message
+<h3>Hide fsck message</h3>
 <p>Add loglevel=3 to /etc/default/grub</p>
