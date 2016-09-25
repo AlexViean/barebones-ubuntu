@@ -16,3 +16,6 @@
 <p>sudo add-apt-repository ppa:graphics-drivers/ppa</p>
 <p>sudo apt-get update</p>
 <p>sudo apt-get install nvidia-prime nvidia-367 bumblebee</p>
+
+# Hide fsck message
+<p>Add loglevel=3 to /etc/default/grub</p>
