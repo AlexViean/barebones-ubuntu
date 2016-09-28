@@ -24,5 +24,7 @@
 
 <h3><li>To hide fsck message</li></h3>
 <p>Add loglevel=3 fsck.mode=skip to /etc/default/grub</p>
+<h3><li>To fix "Assuming drive cache..."</li></h3>
+<p>sudo update-pciids && sudo update-usbids</p>
 <h3><li>Install using Synaptic</li></h3>
 <p>software-properties</p></ul>
