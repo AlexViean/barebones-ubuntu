@@ -33,3 +33,4 @@
 <h3><li>To hide blinking cursor</li></h3>
 <p>echo FRAMEBUFFER=y | sudo tee /etc/initramfs-tools/conf.d/spash</p>
 <p>sudo update-initramfs-tools -u</p>
+<p>sudo dpkg-reconfigure plymouth</p>
