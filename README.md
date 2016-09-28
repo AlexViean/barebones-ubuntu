@@ -28,6 +28,8 @@
 <p>Add fsck.mode=skip to /etc/default/grub</p>
 <h3><li>To fix "Assuming drive cache..."</li></h3>
 <p>sudo update-pciids && sudo update-usbids</p>
-
 <h3><li>To fix "piix4_smbus 0000:00:007.3: Host SMBus controller not enabled!"</li></h3>
 <p>echo "blacklist i2c-piix4" | sudo tee /etc/modprobe.d/blacklist.conf</p>
+<h3><li>To hide blinking cursor</li></h3>
+<p>echo FRAMEBUFFER=y | sudo tee /etc/initramfs-tools/conf.d/spash</p>
+<p>sudo update-initramfs-tools -u</p>
