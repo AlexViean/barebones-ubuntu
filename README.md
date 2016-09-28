@@ -15,7 +15,7 @@
 <h2>Post Installation</h2>
 <ul>
 <h3><li>To fix airplane mode</li></h3>
-<p>sudo echo "blacklist asus_nb_wmi" >> /etc/modprobe.d/blacklist.conf</p>
+<p>echo "blacklist asus_nb_wmi" | sudo tee /etc/modprobe.d/blacklist.conf</p>
 
 <h3><li>To install nVIDIA driver</li></h3>
 <p>sudo add-apt-repository ppa:graphics-drivers/ppa</p>
