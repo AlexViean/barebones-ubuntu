@@ -30,4 +30,4 @@
 <p>sudo update-pciids && sudo update-usbids</p>
 
 <h3><li>To fix "piix4_smbus 0000:00:007.3: Host SMBus controller not enabled!"</li></h3>
-<p>sudo echo "blacklist i2c-piix4" >> /etc/modprobe.d/blacklist.conf</p>
+<p>echo "blacklist i2c-piix4" | sudo tee /etc/modprobe.d/blacklist.conf</p>
