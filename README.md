@@ -22,9 +22,12 @@
 <p>sudo apt-get update</p>
 <p>sudo apt-get install nvidia-prime nvidia-367 bumblebee</p>
 
+<h3><li>Install using Synaptic</li></h3>
+<p>software-properties-common</p></ul>
 <h3><li>To hide fsck message</li></h3>
 <p>Add fsck.mode=skip to /etc/default/grub</p>
 <h3><li>To fix "Assuming drive cache..."</li></h3>
 <p>sudo update-pciids && sudo update-usbids</p>
-<h3><li>Install using Synaptic</li></h3>
-<p>software-properties</p></ul>
+
+<h3><li>To fix "piix4_smbus 0000:00:007.3: Host SMBus controller not enabled!"</li></h3>
+<p>sudo echo "blacklist i2c-piix4" >> /etc/modprobe.d/blacklist.conf</p>
