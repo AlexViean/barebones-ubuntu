@@ -23,7 +23,7 @@
 <p>sudo apt-get install nvidia-prime nvidia-367 bumblebee</p>
 
 <h3><li>Install using Synaptic</li></h3>
-<p>software-properties-common</p></ul>
+<p>software-properties-common</p>
 <h3><li>To hide fsck message</li></h3>
 <p>Add fsck.mode=skip to /etc/default/grub</p>
 <h3><li>To fix "Assuming drive cache..."</li></h3>
@@ -33,4 +33,4 @@
 <h3><li>To hide blinking cursor</li></h3>
 <p>echo FRAMEBUFFER=y | sudo tee /etc/initramfs-tools/conf.d/spash</p>
 <p>sudo update-initramfs-tools -u</p>
-<p>sudo dpkg-reconfigure plymouth</p>
+<p>sudo dpkg-reconfigure plymouth</p></ul>
